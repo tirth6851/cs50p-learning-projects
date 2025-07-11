@@ -1,0 +1,8 @@
+x = float(input("Num1: "))
+op = input("Op (+,-,*,/): ")
+y = float(input("Num2: "))
+if op=="+": print(x+y)
+elif op=="-": print(x-y)
+elif op=="*": print(x*y)
+elif op=="/": print(x/y if y!=0 else "Error: div by 0")
+else: print("Invalid op")
